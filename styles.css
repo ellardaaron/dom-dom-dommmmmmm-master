@@ -14,3 +14,13 @@
     background-color: black;
 }
 
+.square:before {
+    content: attr(id);
+    opacity: 0;
+    transition: opacity .25s ease;
+    color:white
+  }
+  
+  .square:hover:before {
+    opacity: 1
+  }
